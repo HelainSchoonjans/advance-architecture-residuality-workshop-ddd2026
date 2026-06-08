@@ -31,6 +31,7 @@ Reading list
 - [] the reflective practitioner
 - [] a rational design process: how and why to fake it
 - [] Complex Responsive Processes
+- [] Antifragile ICT systems
 
 ## Order and disorder
 
@@ -45,6 +46,35 @@ Human and business systems are disordered.
 - Antifragility - Fooled by randomness
 - 
 
+## Antifragile systems
+
+- Modularity
+- Weak links
+- Redundancy
+- Diversity
+
+Stress drives the system.
+
+## Hyperliminality
+
+## Random simulation
+
+## Kauffman method
+
+Random boolean network
+
+NKP analysis.
+
+## A two step algoithm of architecture
+
+Random simulation + NKP simulation ( NKP~ residue architectures/attractors )
+
+Stressors & alternatives versions of the architecture. No need to consolidate them all at first.
+
+Architecture = unfettered exploration.
+Cost optimization is the very last step.
 
 
-
+Sources of stressors:
+- PESTLE
+- Business Relationships map (just before the PESTLE)
