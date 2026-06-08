@@ -17,7 +17,23 @@ Alan Turing: we can never know ahead of time if a program will work.
 1979: Adaptive phase: bizz env is changing. Complex and impredictable. Meets complexity through process. Agile processes.
 2015: Residual phase: Software is ordered, reality is complex.
 
+## Time change and uncertainty
 
+UML/Archimate have no way to represent time, change and uncertainty over change.
+
+## What is the unit of SWE?
+
+Greek Arké: what is the root of everything? Water? Fire? Atoms?
+
+A unit for time, uncertainty and change: residue, a unit of software architecture.
+
+Reading list
+- [] the reflective practitioner
+- [] a rational design process: how and why to fake it
+
+## Order and disorder
+
+Software is ordered
 
 
 
