@@ -30,15 +30,20 @@ A unit for time, uncertainty and change: residue, a unit of software architectur
 Reading list
 - [] the reflective practitioner
 - [] a rational design process: how and why to fake it
+- [] Complex Responsive Processes
 
 ## Order and disorder
 
 Software is ordered
 
+Human and business systems are disordered.
 
+## 5 ways of describing complexity
 
-
-
+- Cinefin
+- 
+- Antifragility - Fooled by randomness
+- 
 
 
 
