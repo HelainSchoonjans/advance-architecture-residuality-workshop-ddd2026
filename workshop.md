@@ -87,3 +87,26 @@ Sources of stressors:
 
 Resilience vs over-engineering
 
+## Contagion analysis
+
+Paper from Parnas about conventional decomposition.
+
+A -> B -> C -> D
+
+A change in B will cause a change in A.
+
+Solution: nonconventional decomposition: make a list of everything that change and hide things that change behind a component. He invents a concept; information-hiding.
+
+Hyperliminal coupling; invisible coupling created by stressors.
+
+### Incidence matrix
+
+Incidence matrix; matrix with stressor on lines, components as columns, 0 or 1 as value if the component is impacted by the stressor. Total the 1s for each line/column.
+
+||Billing|charge|customer|Total|
+|---|---|---|---|---|
+|Server failure|0|1|0|1
+|Expired credit card|0|1|1|2
+|Total|0|2|1|
+
+
