@@ -78,3 +78,7 @@ Cost optimization is the very last step.
 Sources of stressors:
 - PESTLE
 - Business Relationships map (just before the PESTLE)
+
+
+*Point of attention*: If a business person pushes back a Business Decision on the Architect, refuse and ask who is his boss. Because the architect shouldn't have to take the responsibility of business decisions.
+*So the solution*: ask who is in charge and makes decisions on the project.

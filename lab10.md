@@ -6,23 +6,25 @@ Have the following columns
 - Stressor Name
 - Detection
 - Attractor: Business impact
-- Attractor: 
-- ...
+- Attractor: Business Reaction
+- Residue (delta)
 
 ## Exercise
 
 |#|Name|Detection|Attractor: Business Impact|Attractor: Business reaction|Residue (delta)|
 |---|---|---|---|---|---|
-|1|Giant fire-breathing lizard destroys competitor|-|test|test|test|
-|2|Competitor API down|test|test|test|test|
-|3|Competitor API contract change|test|test|test|test|
-|4|Competitor mortgage model/parameters change|test|test|test|test|
-|5|Our own mortgage model changes|test|test|test|test|
-|6|Intermediate broker; changes of ownership of competitor|test|test|test|test|
-|7|Our competitor uses dummy customers to do rate comparisons|test|test|test|test|
-|8|Regulatory changes; immediate rate comparisons required|test|test|test|test|
-|9|Comparison over additional products|test|test|test|test|
-|10|Competitors sends us garbage data|test|test|test|test|
+|1|Giant fire-breathing lizard destroys competitor|-|News, smoke|Less volume of offers requested|We stop sending them offer requests and stop listening to their own channel; we remove them as a party|We need a management compenent for competitors (add, remove)
+|2|Competitor API down|Timeouts/monitoring|Delay in getting/sending requests|Retry of use asynchronous mecanism|Retry mecanism|
+|3|Competitor API contract change|Error rate/monitoring or they notify us|No request processed until resolution|We have to change our integration|Contract testing or business protocol for api changes to give time to adapt adapter|
+|4|Competitor mortgage model/parameters change|Notificatiton and errors|Errors/no more processed|idem|idem|
+|4b|New model parameters|Notification|New data to process|Update model to be able to provide/process it|Adapter and mortgage rate request model update|
+|5a|We add parameters to our own data model|Internal decision|Inaccurate mortgage predictions|We request it from the customer or we propose an agreement to competitors to provide the data|Request or agreement with competitor or establish a body to help intermediate in those information requests|
+|5b|We stop using some model parameters|Internal deicison|-|We may remove the data collection|We maintain the required parameters from competitors to know if they still need it. They might want to maintain our own API descriptions that show the parameters we are still using. + notifications on API/parameters changes Historical DB clean?|
+|6|Intermediate broker needs to centralize the comparison app|Legal notice||We move those features to broker. We don't need to integrate/maintain alist of competitors.|Remove adaptors, keep one to the broker app|
+|7|Our competitor uses dummy customers to do rate comparisons|||Dummy requests could get marketing information about our strategy|Add common person identifier to the request. Attention privacy regulations|
+|8|Regulatory changes; immediate rate comparisons required|Legal notification|Real-time mortgage quoting and loading|Sytem adaption|Real time apis, inform user if retrieval didn't work for a competitor. Timeout for rate retrieval|
+|9|Comparison over additional products|Business decision|Adapt the system|Adapt the system|Typed APIs or typed messages|
+|10|Competitors sends us garbage data|Errors/validation errors|We can't provide rates|Notify the competitor that it needs to fix stuff/decline his message|Legal cohersion to fix the issue as we lose potential customers|
 |11|Mortgage calculator is down|test|test|test|test|
 |12|Fusion/acquisition of competitor|test|test|test|test|
 |13|Merger of banks|test|test|test|test|
@@ -91,3 +93,5 @@ Have the following columns
 |76|What if regulation force you to have a MCP to request mortgages?|test|
 |77|Legal requirement to not share personal information|test|
 |78|Preferential rates (bank employees) lower the quality of rates provided by your competitors|test|
+
+
