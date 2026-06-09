@@ -14,7 +14,7 @@ Have the following columns
 |#|Name|Detection|Attractor: Business Impact|Attractor: Business reaction|Residue (delta)|
 |---|---|---|---|---|---|
 |1|Giant fire-breathing lizard destroys competitor|-|News, smoke|Less volume of offers requested|We stop sending them offer requests and stop listening to their own channel; we remove them as a party|We need a management compenent for competitors (add, remove)
-|2|Competitor API down|Timeouts/monitoring|Delay in getting/sending requests|Retry of use asynchronous mecanism|Retry mecanism|
+|2|Competitor API down|Timeouts/monitoring|Delay in getting/sending requests|Retry or use asynchronous mecanism|Retry mecanism|
 |3|Competitor API contract change|Error rate/monitoring or they notify us|No request processed until resolution|We have to change our integration|Contract testing or business protocol for api changes to give time to adapt adapter|
 |4|Competitor mortgage model/parameters change|Notificatiton and errors|Errors/no more processed|idem|idem|
 |4b|New model parameters|Notification|New data to process|Update model to be able to provide/process it|Adapter and mortgage rate request model update|
