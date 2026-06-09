@@ -109,4 +109,7 @@ Incidence matrix; matrix with stressor on lines, components as columns, 0 or 1 a
 |Expired credit card|0|1|1|2
 |Total|0|2|1|
 
+## Excel files
+
+See the Google Drive folder for the 2026_residuality_workshop
 
